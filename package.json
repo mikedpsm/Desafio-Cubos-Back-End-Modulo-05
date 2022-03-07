@@ -1,0 +1,39 @@
+{
+  "devDependencies": {
+    "eslint": "^8.8.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.4",
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "axios": "^0.25.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.2",
+    "jsonwebtoken": "^8.5.1",
+    "knex": "^1.0.2",
+    "pg": "^8.7.3",
+    "secure-password": "^4.0.0",
+    "yup": "^0.32.11",
+    "yup-locales": "^1.2.2"
+  },
+  "name": "back-integral-m05-desafio-t04",
+  "description": "![](https://i.imgur.com/xG74tOh.png)",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "dev": "nodemon ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikedpsm/back-integral-m05-desafio-t04.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mikedpsm/back-integral-m05-desafio-t04/issues"
+  },
+  "homepage": "https://github.com/mikedpsm/back-integral-m05-desafio-t04#readme"
+}
