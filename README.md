@@ -1,3 +1,49 @@
+# SOBRE ESTE PROJETO
+
+Desafio final do curso de Desenvolvimento de Software da Cubos Academy. Trata-se de uma plataforma de cobranças desenvolvido em grupo utilizando a metodologia ágil Scrum. Através de 3 sprints, criamos a plataforma que oferece funcionalidades CRUD para clientes, usuários e cobranças. A API do Back-End foi desenvolvida utilizando o padrão Rest. Nosso Front-end está hospedado na Netlify, já o Back-end, na Heroku.
+
+### Tecnologias utilizadas
+
+##### Back-end
+
+* Javascript
+* NodeJs
+* PostgreSQL
+* ExpressJs
+* Yup
+* secure-password
+* JWT
+* dotenv
+
+##### Front-end
+
+* React
+* React Router Dom
+* Axios
+* Yup
+
+### Autores
+
+##### Back-end
+
+###### Maicon Douglas Paiva da Silva
+
+LinkedIn:
+<https://www.linkedin.com/in/mikedpsm/>
+
+e-mail:
+maicondpsm@gmail.com
+
+##### Front-end
+
+###### Jonatas Ximenez
+
+LinkedIn:
+<https://www.linkedin.com/in/devindio/>
+
+e-mail:
+ximenezjonatas@gmail.com
+
 ![](https://i.imgur.com/xG74tOh.png)
 
 # Desafio Final Módulo 5 - BACKEND
@@ -10,24 +56,12 @@ A versão final do código de cada sprint deverá estar na branch principal do r
 
 ---
 
-No fork de vocês, favor alterar este README para adicionar os links correspondentes para os seguintes itens:
+**Repositório de Backend**: https://github.com/mikedpsm/Desafio-Cubos-Back-End-Modulo-05
 
-**Repositório de Backend**: https://github.com/mikedpsm/back-integral-m05-desafio-t04
-
-**Repositório de Frontend**: https://github.com/mikedpsm/front-integral-m05-desafio-t04
+**Repositório de Frontend**: https://github.com/ (Feito por @IndioBR)
 
 **URL da aplicação funcionando**: https://db-pagmanager.herokuapp.com/
 
 ---
 
-E os itens abaixo, que deverão ser preenchidos apenas após a finalização de todas as sprints do projeto:
-
-**Pull Request (PR) de Backend**:
-
-**Pull Request (PR) de Frontend**:
-
-Estes Pull Requests (PRs) deverão ser criados a partir da branch principal do fork correspondente de vocês daquela stack tendo como destino o repositório base da stack do desafio.
-
-Ou seja, o Pull Request de **BACKEND** deverá ser criado a partir do fork de vocês desse repositório aqui, com destino a este repositório aqui.
-
-E portanto o Pull Request de **FRONTEND** deverá ser criado a partir do fork de vocês do repositório base de FRONTEND desse desafio, com destino ao [repositório base de FRONTEND desse desafio](https://github.com/cubos-academy/front-integral-m05-desafio-t04).
+https://img.shields.io/github/license/mikedpsm/Desafio-Cubos-Back-End-Modulo-05
