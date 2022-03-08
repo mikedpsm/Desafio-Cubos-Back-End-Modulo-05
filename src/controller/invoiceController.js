@@ -157,9 +157,9 @@ const getTotal = async (req, res) => {
     // total paid
     const paidQuery = await knex.raw('SELECT Sum(total) FROM invoice WHERE paidout = true');
     // overdue clients (4 clients)
-    const ovdClients = await knex.raw('SELECT username, duedate, total FROM client JOIN invoice on client.cpf = invoice.client_id WHERE overdue = true AND invoice.paidout = false LIMIT 4');
+    const ovdClients = await knex.raw('SELECT username, duedate, total, invoice.id FROM client JOIN invoice on client.cpf = invoice.client_id WHERE overdue = true AND invoice.paidout = false LIMIT 4');
     // up to date clients (4)
-    const upToDateClients = await knex.raw('SELECT username, duedate, total FROM client JOIN invoice on client.cpf = invoice.client_id WHERE overdue = false AND duedate > CURRENT_DATE LIMIT 4');
+    const upToDateClients = await knex.raw('SELECT username, duedate, total, invoice.id FROM client JOIN invoice on client.cpf = invoice.client_id WHERE overdue = false AND duedate > CURRENT_DATE LIMIT 4');
 
     const responseObject = {
       overdueQuery: overdueQuery.rows,
@@ -168,6 +168,8 @@ const getTotal = async (req, res) => {
       ovdClients: ovdClients.rows,
       upToDateClients: upToDateClients.rows,
     };
+
+    const clientQuery = await knex.raw
 
     return res.status(200).json(responseObject);
   } catch (error) {
