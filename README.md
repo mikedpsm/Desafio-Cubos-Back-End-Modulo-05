@@ -26,9 +26,9 @@ Desafio final do curso de Desenvolvimento de Software da Cubos Academy. Trata-se
 
   #### Back-end
 
-    ##### Maicon Douglas Paiva da Silva
+    Maicon Douglas Paiva da Silva
 
-     LinkedIn:
+    LinkedIn:
     <https://www.linkedin.com/in/mikedpsm/>
 
     e-mail:
@@ -36,7 +36,7 @@ Desafio final do curso de Desenvolvimento de Software da Cubos Academy. Trata-se
 
   #### Front-end
 
-    ##### Jonatas Ximenez
+    Jonatas Ximenez
 
     LinkedIn:
     <https://www.linkedin.com/in/devindio/>
