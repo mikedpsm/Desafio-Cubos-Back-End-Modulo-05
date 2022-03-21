@@ -1,23 +1,22 @@
-const jwt = require('jsonwebtoken');
-const knex = require('../database/connection');
+const jwt = require("jsonwebtoken");
+const knex = require("../database/connection");
 
-// eslint-disable-next-line consistent-return
 const loginFilter = async (req, res, next) => {
   const { authorization } = req.headers;
 
   if (!authorization) {
-    return res.status(404).json('Token não autorizado');
+    return res.status(404).json("Token não autorizado");
   }
 
   try {
-    const token = authorization.replace('Bearer ', '').trim();
+    const token = authorization.replace("Bearer ", "").trim();
 
     const { id } = jwt.verify(token, process.env.JWT_SECRET);
 
-    const checkUser = await knex('db_user').where({ id }).first();
+    const checkUser = await knex("db_user").where({ id }).first();
 
     if (!checkUser) {
-      return res.status(400).json('Usuário não encontrado');
+      return res.status(400).json("Usuário não encontrado");
     }
 
     const { passwd, ...user } = checkUser;

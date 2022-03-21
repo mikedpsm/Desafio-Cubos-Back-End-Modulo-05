@@ -18,7 +18,7 @@
     "yup-locales": "^1.2.2"
   },
   "name": "back-integral-m05-desafio-t04",
-  "description": "![](https://i.imgur.com/xG74tOh.png)",
+  "description": "Desafio final do curso de Desenvolvimento de Software da Cubos Academy. Trata-se de uma plataforma de cobranças desenvolvido em grupo utilizando a metodologia ágil Scrum. Através de 3 sprints, criamos a plataforma que oferece funcionalidades CRUD para clientes, usuários e cobranças. A API do Back-End foi desenvolvida utilizando o padrão Rest. Nosso Front-end está hospedado na Netlify, já o Back-end, na Heroku.",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -27,13 +27,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mikedpsm/back-integral-m05-desafio-t04.git"
+    "url": "git+https://github.com/mikedpsm/PagManager.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Maicon Douglas",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/mikedpsm/back-integral-m05-desafio-t04/issues"
+    "url": "https://github.com/mikedpsm/PagManager/issues"
   },
-  "homepage": "https://github.com/mikedpsm/back-integral-m05-desafio-t04#readme"
+  "homepage": "https://github.com/mikedpsm/PagManager#readme"
 }
