@@ -123,7 +123,7 @@
         }
       },
       "get": {
-        "description": "",
+        "description": "Exibição de dados do usuário logado.",
         "parameters": [
           {
             "name": "authorization",
@@ -146,7 +146,7 @@
     },
     "/clients": {
       "get": {
-        "description": "",
+        "description": "Listagem dos clientes cadastrados no sistema.",
         "parameters": [
           {
             "name": "authorization",
@@ -169,7 +169,7 @@
     },
     "/client/{cpf}": {
       "get": {
-        "description": "",
+        "description": "Exibição de dados de um usuário específico selecionado pelo CPF.",
         "parameters": [
           {
             "name": "cpf",
@@ -196,7 +196,7 @@
         }
       },
       "patch": {
-        "description": "",
+        "description": "Atualização de cadastro de cliente.",
         "parameters": [
           {
             "name": "cpf",
@@ -216,16 +216,16 @@
               "type": "object",
               "properties": {
                 "username": {
-                  "example": "any"
+                  "example": "New name"
                 },
                 "email": {
-                  "example": "any"
+                  "example": "newmail@mail.com"
                 },
                 "cpf": {
-                  "example": "any"
+                  "example": "00011144422"
                 },
                 "phone": {
-                  "example": "any"
+                  "example": "22999991111"
                 }
               }
             }
@@ -244,7 +244,7 @@
         }
       },
       "delete": {
-        "description": "",
+        "description": "Remoção de cliente cadastrado.",
         "parameters": [
           {
             "name": "cpf",
@@ -273,7 +273,7 @@
     },
     "/client": {
       "post": {
-        "description": "",
+        "description": "Cadastro de cliente.",
         "parameters": [
           {
             "name": "authorization",
@@ -287,34 +287,34 @@
               "type": "object",
               "properties": {
                 "phone": {
-                  "example": "any"
+                  "example": "55988887777"
                 },
                 "email": {
-                  "example": "any"
+                  "example": "mymail@service.com"
                 },
                 "username": {
-                  "example": "any"
+                  "example": "Milton Neves"
                 },
                 "cpf": {
-                  "example": "any"
+                  "example": "11122233344"
                 },
                 "city": {
-                  "example": "any"
+                  "example": "Arkansas"
                 },
                 "uf": {
-                  "example": "any"
+                  "example": "XX"
                 },
                 "cep": {
-                  "example": "any"
+                  "example": "55544-11"
                 },
                 "street": {
-                  "example": "any"
+                  "example": "My street name"
                 },
                 "region": {
-                  "example": "any"
+                  "example": "My region name"
                 },
                 "complement": {
-                  "example": "any"
+                  "example": "My complement"
                 }
               }
             }
@@ -335,7 +335,7 @@
     },
     "/invoices/{cpf}": {
       "get": {
-        "description": "",
+        "description": "Listagem de cobranças de um cliente específico selecionado por CPF.",
         "parameters": [
           {
             "name": "cpf",
@@ -364,7 +364,7 @@
     },
     "/invoices": {
       "get": {
-        "description": "",
+        "description": "Listagem de todas as cobranças cadastradas no sistema.",
         "parameters": [
           {
             "name": "authorization",
@@ -387,7 +387,7 @@
     },
     "/invoice/{id}": {
       "get": {
-        "description": "",
+        "description": "Exibição de cobrança específica selecionada por ID.",
         "parameters": [
           {
             "name": "id",
@@ -414,7 +414,7 @@
         }
       },
       "patch": {
-        "description": "",
+        "description": "Atualizar dados de cobrança específica selecionada por ID.",
         "parameters": [
           {
             "name": "id",
@@ -462,7 +462,7 @@
         }
       },
       "delete": {
-        "description": "",
+        "description": "Remoção de cobrança selecionada por ID.",
         "parameters": [
           {
             "name": "id",
@@ -491,7 +491,7 @@
     },
     "/invoice": {
       "get": {
-        "description": "",
+        "description": "Fornece dados para preenchimento da Home Page da aplicação. Estes dados serão consumidos pelo front-end para população dos cards de informações dos clientes e cobranças em determinados estados (vencidas / a vencer).",
         "parameters": [
           {
             "name": "authorization",
@@ -514,7 +514,7 @@
     },
     "/invoice/{cpf}": {
       "post": {
-        "description": "",
+        "description": "Cadastra uma nova cobrança para um cliente, indicado por CPF.",
         "parameters": [
           {
             "name": "cpf",
@@ -534,16 +534,16 @@
               "type": "object",
               "properties": {
                 "duedate": {
-                  "example": "any"
+                  "example": "01/01/2022"
                 },
                 "paidout": {
-                  "example": "any"
+                  "example": "false"
                 },
                 "description": {
-                  "example": "any"
+                  "example": "Compra de peças automotivas"
                 },
                 "total": {
-                  "example": "any"
+                  "example": "500000"
                 }
               }
             }
