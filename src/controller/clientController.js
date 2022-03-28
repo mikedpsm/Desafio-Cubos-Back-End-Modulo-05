@@ -27,7 +27,7 @@ const getClient = async (req, res) => {
   }
 };
 
-const addNewClient = async (req, res) => {
+const addClient = async (req, res) => {
   const {
     phone,
     email,
@@ -38,7 +38,7 @@ const addNewClient = async (req, res) => {
     cep,
     street,
     region,
-    complemento,
+    complement,
   } = req.body;
 
   try {
@@ -68,7 +68,7 @@ const addNewClient = async (req, res) => {
       region,
       cep,
       street,
-      complemento,
+      complement,
     };
 
     const newClientQuery = await knex("client")
@@ -82,7 +82,18 @@ const addNewClient = async (req, res) => {
 };
 
 const editClient = async (req, res) => {
-  const { username, email, cpf, phone } = req.body;
+  const {
+    username,
+    email,
+    cpf,
+    phone,
+    city,
+    cep,
+    uf,
+    street,
+    region,
+    complement,
+  } = req.body;
 
   try {
     await schemaEditClient.validate(req.body);
@@ -117,6 +128,12 @@ const editClient = async (req, res) => {
       email,
       cpf,
       phone,
+      city,
+      cep,
+      uf,
+      street,
+      region,
+      complement,
     });
 
     if (!updateClient) {
@@ -155,6 +172,6 @@ module.exports = {
   getClients,
   getClient,
   editClient,
-  addNewClient,
+  addClient,
   deleteClient,
 };
