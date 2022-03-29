@@ -134,6 +134,7 @@ const editInvoice = async (req, res) => {
 
     return res.status(200).json("Cobrança editada com sucesso !");
   } catch (error) {
+    console.log(error);
     return res.status(400).json({ Erro: error.message });
   }
 };
