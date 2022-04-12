@@ -58,9 +58,9 @@ A versão final do código de cada sprint deverá estar na branch principal do r
 
 **Repositório de Backend**: https://github.com/mikedpsm/Desafio-Cubos-Back-End-Modulo-05
 
-**Repositório de Frontend**: https://github.com/ (Feito por @IndioBR)
+**Repositório de Frontend**: https://github.com/IndioBR
 
-**URL da aplicação funcionando**: https://db-pagmanager.herokuapp.com/
+**URL da aplicação funcionando**: https://pagmanager.netlify.app/
 
 ---
 
