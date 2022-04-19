@@ -2,6 +2,10 @@
 
 Desafio final do curso de Desenvolvimento de Software da Cubos Academy. Trata-se de uma plataforma de cobranças desenvolvido em grupo utilizando a metodologia ágil Scrum. Através de 3 sprints, criamos a plataforma que oferece funcionalidades CRUD para clientes, usuários e cobranças. A API do Back-End foi desenvolvida utilizando o padrão Rest. Nosso Front-end está hospedado na Netlify, já o Back-end, na Heroku. Sua documentação foi feita utilizando Swagger API.
 
+## Preview
+
+![PagManager Print](https://github.com/mikedpsm/PagManager/blob/main/print_pagmanager.png)
+
 ### Tecnologias utilizadas
 
 ##### Back-end
