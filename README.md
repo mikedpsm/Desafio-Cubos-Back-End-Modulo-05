@@ -1,3 +1,5 @@
+# DISCLAIMER: Since Heroku is closing itś free services, this project won´t be available for testing for a while.
+
 # SOBRE ESTE PROJETO
 
 Desafio final do curso de Desenvolvimento de Software da Cubos Academy. Trata-se de uma plataforma de cobranças desenvolvido em grupo utilizando a metodologia ágil Scrum. Através de 3 sprints, criamos a plataforma que oferece funcionalidades CRUD para clientes, usuários e cobranças. A API do Back-End foi desenvolvida utilizando o padrão Rest. Nosso Front-end está hospedado na Netlify, já o Back-end, na Heroku. Sua documentação foi feita utilizando Swagger API.
