@@ -1,4 +1,4 @@
-# DISCLAIMER: Since Heroku is closing itś free services, this project won´t be available for testing for a while.
+# DISCLAIMER: Project removed from Heroku for now. Will be reposted in the near future.
 
 # SOBRE ESTE PROJETO
 
